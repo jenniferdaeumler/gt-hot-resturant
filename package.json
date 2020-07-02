@@ -3,9 +3,14 @@
   "version": "1.0.0",
   "description": "* Create the front-end (visuals) for home page, reservation form, and reservation views.",
   "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "watch": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -17,5 +22,4 @@
     "url": "https://github.com/jenniferdaeumler/gt-hot-resturant/issues"
   },
   "homepage": "https://github.com/jenniferdaeumler/gt-hot-resturant#readme"
-  
 }
